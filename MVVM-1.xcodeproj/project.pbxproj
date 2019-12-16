@@ -13,6 +13,8 @@
 		997593D523A73AAC00F3D9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997593D323A73AAC00F3D9D1 /* Main.storyboard */; };
 		997593D723A73AB300F3D9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997593D623A73AB300F3D9D1 /* Assets.xcassets */; };
 		997593DA23A73AB300F3D9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997593D823A73AB300F3D9D1 /* LaunchScreen.storyboard */; };
+		997593E223A73AD800F3D9D1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997593E123A73AD800F3D9D1 /* Profile.swift */; };
+		997593E423A73E9A00F3D9D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997593E323A73E9A00F3D9D1 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		997593D623A73AB300F3D9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997593D923A73AB300F3D9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997593DB23A73AB300F3D9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997593E123A73AD800F3D9D1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		997593E323A73E9A00F3D9D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				997593D623A73AB300F3D9D1 /* Assets.xcassets */,
 				997593D823A73AB300F3D9D1 /* LaunchScreen.storyboard */,
 				997593DB23A73AB300F3D9D1 /* Info.plist */,
+				997593E123A73AD800F3D9D1 /* Profile.swift */,
+				997593E323A73E9A00F3D9D1 /* ViewModel.swift */,
 			);
 			path = "MVVM-1";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997593E423A73E9A00F3D9D1 /* ViewModel.swift in Sources */,
 				997593D223A73AAC00F3D9D1 /* ViewController.swift in Sources */,
+				997593E223A73AD800F3D9D1 /* Profile.swift in Sources */,
 				997593CE23A73AAC00F3D9D1 /* AppDelegate.swift in Sources */,
 				997593D023A73AAC00F3D9D1 /* SceneDelegate.swift in Sources */,
 			);
